@@ -1,7 +1,7 @@
 body {
 	margin: auto;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .colour-bar {
@@ -94,5 +94,30 @@ p{
 
 .limegreen {
 	background-color: rgb(50,205,50);
+	height: 300px;
+}
+
+.darkorchid {
+	background-color: #9932CC;
+	height: 300px;
+}
+
+.snow {
+	background-color: snow;
+	height: 300px;
+}
+
+.salmon {
+	background-color:#FA8072;
+	height: 300px;
+}
+
+.darkkhaki {
+	background-color:rgb(183,183,107);
+	height: 300px;
+}
+
+.steelblue {
+	background-color: #4682B4;
 	height: 300px;
 }
