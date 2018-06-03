@@ -2,122 +2,26 @@ body {
 	margin: auto;
 	text-align: center;
 	font-family: 'Merriweather Sans', sans-serif;
+	box-sizing: border-box;
 }
 
-.colour-bar {
+.color-bar {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 30px;
 }
 
-.black {
-	background-color: black;
-}
-
-.yellow {
-	background-color: yellow;
-}
-.cyan {
-	background-color: cyan;
-}
-.green {
-	background-color: green;
-}
-.red {
-	background-color: red;
-}
-.blue {
-	background-color: blue;
-}
-.purple {
-	background-color: purple;
-}
-.pink {
-	background-color: pink;
-}
-.orange {
-	background-color: orange;
-}
-.gray {
-	background-color: gray;
-}
-.white {
-	background-color: white;
-}
-.brown {
-	background-color: brown;
-}
-
-.light-text{
-	color: white;
-}
-
-li{
-	display: inline;
-	padding: 15px;
-}
-
-.light {
-	color: white;
-}
-
-.dark {
-	color: black;
-}
-
 p{
-	padding: 100px 0 30px 0;
 	font-weight: bold;
 	letter-spacing: 4px;
 	font-size: 25px;
 	text-transform: uppercase;
-}
-.slategrey {
-	background-color: rgb(112,128, 144);
-	height: 300px;
+	line-height: 300px;
+	color: white;
 }
 
-.honeydew {
-	background-color: #F0FFF0;
+.color-block {
 	height: 300px;
+	display: inline-block;
 }
 
-.mediumturquoise {
-	background-color: mediumturquoise;
-	height:300px;
-}
-
-.coral {
-	background-color: coral;
-	height: 300px;
-}
-
-.limegreen {
-	background-color: rgb(50,205,50);
-	height: 300px;
-}
-
-.darkorchid {
-	background-color: #9932CC;
-	height: 300px;
-}
-
-.snow {
-	background-color: snow;
-	height: 300px;
-}
-
-.salmon {
-	background-color:#FA8072;
-	height: 300px;
-}
-
-.darkkhaki {
-	background-color:rgb(183,183,107);
-	height: 300px;
-}
-
-.steelblue {
-	background-color: #4682B4;
-	height: 300px;
-}
